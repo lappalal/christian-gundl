@@ -6,9 +6,25 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+nav {
+  height: 72px;
+  line-height: 72px;
+
+  ul {
+    a {
+      color: #444;
+    }
+    li {
+      line-height: 72px;
+    }
+  }
+
+  .brand-logo {
+    color: #444;
+    img {
+      height: 72px;
+    }
+  }
 }
 
 p {
@@ -54,4 +70,12 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.viewheight {
+  div {
+  height: 100vh;
+
+  }
+  height: 100vh;
 }
