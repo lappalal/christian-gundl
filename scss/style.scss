@@ -1,81 +1,22 @@
 /* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+@import 'config';
 
 nav {
-  height: 72px;
-  line-height: 72px;
+  background-color: $background-color;
+}
+.brand-logo {
+  img {
+    height: 64px;
+  }
+}
 
-  ul {
-    a {
-      color: #444;
+.content-wrapper {
+  min-height: calc(100vh - 64px - 200px);
+}
+
+  .page-footer {
+    background-color: $background-color;
+    .footer-copyright {
+      background-color: darken($background-color, 10%);
     }
-    li {
-      line-height: 72px;
-    }
   }
-
-  .brand-logo {
-    color: #444;
-    img {
-      height: 72px;
-    }
-  }
-}
-
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-.viewheight {
-  div {
-  height: 100vh;
-
-  }
-  height: 100vh;
-}
