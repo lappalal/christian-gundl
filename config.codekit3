@@ -154,6 +154,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/single.twig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/single.twig",
+		"oF": 0
 		}
 	},
 "hooks": [

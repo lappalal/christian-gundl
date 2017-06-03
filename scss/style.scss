@@ -12,6 +12,16 @@ nav {
 
 .content-wrapper {
   min-height: calc(100vh - 64px - 200px);
+  &.index {
+    background-image: url(/themes/mtw_build/img/gundl.jpg);
+    background-attachment: scroll;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  .spacer {
+    height: 1000px;
+  }
 }
 
   .page-footer {
