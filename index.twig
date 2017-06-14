@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>{{meta.title}} | {{site_title}}</title>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   <link rel="stylesheet" href="{{ theme_url }}/css/style.css">
 
@@ -27,17 +28,52 @@
     </div>
   </header>
 
-<div class="content-wrapper index">
-  <div class="container">
-    <div class="row">
-      <div class="col 12">
-        <div class="spacer">
-
+  <div class="content-wrapper index">
+    <div class="parallax-container index">
+      <div class="container">
+        <div class="row">
+          <div class="col 12">
+            <h1 class="title">CHRISTIAN GUNDL</h1>
+            <h3 class="tag-line grey-text text-lighten-1">Training · Beratung · Coaching</h3>
+            <div class="parallax"><img src="{{ theme_url }}/img/gundl.jpg"></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
+  <div class="content-wrapper features">
+    <div class="parallax-container features">
+      <div class="container features">
+        <div class="row features">
+          <h2>Wof&uuml;r ich arbeite</h2>
+          <h5>Meine Angebote haben das Ziel, Menschen dabei zu helfen:</h5>
+          <div class="col s12 m4 l4 features">
+            <i class="material-icons huge">refresh</i>
+            <h4 class="features">Bewusster wahrzunehmen und zu reflektieren.</h4>
+          </div>
+          <div class="col s12 m4 l4 features">
+            <i class="material-icons huge">person</i>
+            <h4 class="features">Persönliche Stärken &&nbsp;Verbesserungs- möglichkeiten kennenzulernen.</h4>
+          </div>
+          <div class="col s12 m4 l4 features">
+            <i class="material-icons huge">mail</i>
+            <h4 class="features">Konfliktfreiere Kommunikation.</h4>
+          </div>
+        </div>
+        <div class="row features">
+          <div class="col s12 m4 l4 features">
+            <i class="material-icons huge">all_inclusive</i>
+            <h4 class="features">Die persönlichen Ziele mit den beruflichen in Einklang bringen.</h4>
+          </div>
+          <div class="col s12 m4 l4 features">
+            <i class="material-icons huge">star</i>
+            <h4 class="features">Richtige Erfolgsregeln finden.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer class="page-footer">
     <div class="container">
@@ -56,5 +92,10 @@
     </div>
   </footer>
 
+  <script>
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+  </script>
 </body>
 </html>

@@ -50,11 +50,27 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/headshot.jpg": {
+	"\/img\/gundl.jpg": {
+		"ft": 16384,
+		"iS": 4020744,
+		"oA": 0,
+		"oAP": "\/..\/mtw_build\/img\/gundl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/gundl.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/img\/gundl.psd",
+		"oF": 0
+		},
+	"\/img\/gundl2.jpg": {
 		"ft": 16384,
 		"iS": 6989449,
 		"oA": 0,
-		"oAP": "\/..\/mtw_build\/img\/headshot.jpg",
+		"oAP": "\/..\/mtw_build\/img\/gundl2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -171,7 +187,7 @@
 	"displayValue": "mtw",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 517933481
+	"lastBuiltDate": 518528295
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

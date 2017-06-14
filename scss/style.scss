@@ -11,22 +11,63 @@ nav {
 }
 
 .content-wrapper {
-  min-height: calc(100vh - 64px - 200px);
   &.index {
-    background-image: url(/themes/mtw_build/img/gundl.jpg);
-    background-attachment: scroll;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    min-height: calc(100vh - 64px);
+  }
+  &.single {
+    min-height: calc(100vh - 64px - 200px);
+  }
+  .title {
+    margin-top: 50vh;
+    font-size: double;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 4px grey;
   }
   .spacer {
     height: 1000px;
   }
 }
 
-  .page-footer {
-    background-color: $background-color;
-    .footer-copyright {
-      background-color: darken($background-color, 10%);
+.material-icons {
+  &.huge {
+    font-size: 1000%;
+  }
+}
+
+p.features {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.container {
+  &.features {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+}
+
+.row {
+  &.features {
+    h4 {
+      word-wrap: break-word;
+      word-break: keep-all;
     }
   }
+}
+
+.parallax-container {
+  &.index {
+    height: calc(100vh - 64px);
+  }
+  &.features {
+    height: auto;
+  }
+}
+
+.page-footer {
+  background-color: $background-color;
+  .footer-copyright {
+    background-color: darken($background-color, 10%);
+  }
+}
