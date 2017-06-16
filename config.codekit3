@@ -20,6 +20,18 @@
 		"oAP": "\/..\/mtw_build\/.gitignore",
 		"oF": 0
 		},
+	"\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/footer.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/header.php",
+		"oF": 0
+		},
 	"\/img\/background1.jpg": {
 		"ft": 16384,
 		"iS": 99515,
@@ -45,6 +57,16 @@
 		"iS": 176006,
 		"oA": 0,
 		"oAP": "\/..\/mtw_build\/img\/background3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/communication.jpg": {
+		"ft": 16384,
+		"iS": 2696099,
+		"oA": 0,
+		"oAP": "\/..\/mtw_build\/img\/communication.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -127,6 +149,12 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/navbar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/navbar.php",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -187,7 +215,7 @@
 	"displayValue": "mtw",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 518528295
+	"lastBuiltDate": 519313441
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -10,6 +10,21 @@ nav {
   }
 }
 
+a {
+  color: $link-color;
+  &:hover {
+    color: orange;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+  color: $icons-color;
+}
+
 .content-wrapper {
   &.index {
     min-height: calc(100vh - 64px);
@@ -19,6 +34,13 @@ nav {
   }
   .title {
     margin-top: 50vh;
+    font-size: double;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 4px grey;
+  }
+  .heading {
+    margin-top: 20vh;
     font-size: double;
     font-weight: bolder;
     color: white;
@@ -63,11 +85,23 @@ p.features {
   &.features {
     height: auto;
   }
+  .greyscale {
+    opacity: 0.85;
+  }
 }
 
 .page-footer {
   background-color: $background-color;
   .footer-copyright {
     background-color: darken($background-color, 10%);
+  }
+  .contact {
+    padding-left: 55px;
+
+    &.material-icons {
+      padding: 10px;
+      color: white;
+      background-color: $accent-color;
+    }
   }
 }
