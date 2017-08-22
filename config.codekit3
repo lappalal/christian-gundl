@@ -32,36 +32,6 @@
 		"oAP": "\/..\/mtw_build\/header.php",
 		"oF": 0
 		},
-	"\/img\/background1.jpg": {
-		"ft": 16384,
-		"iS": 99515,
-		"oA": 0,
-		"oAP": "\/..\/mtw_build\/img\/background1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/background2.jpg": {
-		"ft": 16384,
-		"iS": 187207,
-		"oA": 0,
-		"oAP": "\/..\/mtw_build\/img\/background2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/img\/background3.jpg": {
-		"ft": 16384,
-		"iS": 176006,
-		"oA": 0,
-		"oAP": "\/..\/mtw_build\/img\/background3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"\/img\/communication.jpg": {
 		"ft": 16384,
 		"iS": 2696099,
@@ -71,6 +41,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/img\/four.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/img\/four.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/gundl.jpg": {
 		"ft": 16384,
@@ -131,6 +111,42 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/one.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/img\/one.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/three.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/img\/three.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/two.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/img\/two.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/Untitled-4.ai": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/img\/Untitled-4.ai",
+		"oF": 0
 		},
 	"\/index.twig": {
 		"ft": 8192,
@@ -228,7 +244,7 @@
 	"displayValue": "mtw",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 519655937
+	"lastBuiltDate": 524682010
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
