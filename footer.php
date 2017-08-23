@@ -16,8 +16,7 @@
       <div class="col s12 m4 l4">
         <h4><i class="material-icons contact">business</i> Impressum</h4>
         <p class="contact">Christian Gundl &mdash; Münchner<b>Trainer</b>Werkstatt<br />
-           Tassilostr. 32<br />
-           D – 82131 Gauting<br />
+           Tassilostr. 32, D – 82131 Gauting<br />
            UST – Id DE 130371068</p>
       </div>
     </div>

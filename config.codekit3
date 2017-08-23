@@ -12,12 +12,24 @@
 		"uuidString": "1192158C-9FDD-4F4C-99D5-21D9FADFE41B"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/..\/mtw_build\/.gitignore",
+		"oF": 0
+		},
+	"\/download\/mitarbeiterMehrErfolg.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/download\/mitarbeiterMehrErfolg.doc",
+		"oF": 0
+		},
+	"\/download\/mitKonfliktenErfolgreichUmgehen.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/..\/mtw_build\/download\/mitKonfliktenErfolgreichUmgehen.doc",
 		"oF": 0
 		},
 	"\/footer.php": {
@@ -202,19 +214,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/_features.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/..\/mtw_build\/css\/_features.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -244,7 +243,7 @@
 	"displayValue": "mtw",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
-	"lastBuiltDate": 524682010
+	"lastBuiltDate": 525109680
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -648,6 +647,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -655,6 +658,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -752,6 +759,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -771,6 +782,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -899,6 +914,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -1444,6 +1463,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1512,6 +1535,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1551,6 +1578,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2179,11 +2210,21 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 2,
+			"autoOutputPathFilenamePattern": "*.doc",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "doc"
+			}
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "*",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

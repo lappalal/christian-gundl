@@ -39,12 +39,8 @@
       <div class="container offers">
         <div class="row">
           <h2 class="heading">Erfolgreiche Kommunikation ist nicht angeboren, sondern erlernbar - f&uuml;r jede(n)!</h2>
-          <div class="col s12 white">
-            <ul class="tabs tabs-fixed-width">
-              <li class="tab col s4"><a href="#coaching">Coaching</a></li>
-              <li class="tab col s4"><a href="#seminare">Seminare und Trainings</a></li>
-            </ul>
-          </div>
+          <a class="col s6 waves-effect btn-large communication-button" onclick="showCoaching()">Coaching</a>
+          <a class="col s6 waves-effect btn-large communication-button" onclick="showSeminare()">Seminare und Trainings</a>
           <div id="coaching" class="col s12 white">
             <h4>Coaching</h4>
             <p>
@@ -72,6 +68,7 @@
               <li>Höhe aushalten können</li>
               <li>Keine Angst vor Tieren (Spinnen, Mäuse, Schlangen usw.)</li>
             </ul>
+            <a class="col s12 waves-effect btn-large communication-button" onclick="hideCoaching()">Hide</a>
           </div>
           <div id="seminare" class="col s12 white">
             <h4>Seminare und Trainings</h4>
@@ -84,6 +81,7 @@
             </ul>
 
             <h5>Führungskräftetraining</h5>
+            <!-- {{theme_url}}/download/mitarbeiterMehrErfolg.doc -->
 
             <ul>
               <li>Ausbildung zur Führungskraft I (Führungsinstrumente)<li>
@@ -99,7 +97,7 @@
               <li>Persönlichkeitsentwicklung II („jedes Verhalten ist feedback“)</li>
               <li>Persönlichkeitsentwicklung III („wir sind die Schöpfer unserer Welt“)</li>
               <li>Gesprächsführung mit Persönlichkeit</li>
-              <li>Konstruktiver Umgang mit Konflikten / Stress</li>
+              <li><a href="{{ theme_url }}/download/mitKonfliktenErfolgreichUmgehen.doc">Konstruktiver Umgang mit Konflikten / Stress</a></li>
             </ul>
 
             <h5>Traineraus- und weiterbildung</h5>
@@ -110,6 +108,7 @@
             </ul>
 
             <p>2 Trainings habe ich hier ausführlich hinterlegt, damit Sie sich ein Bild machen können… Ansonsten freue ich mich auf Ihre Nachfragen zu ausführlichen Informationen für Ihre "Wunschthemen"</p>
+            <a class="col s12 waves-effect btn-large communication-button" onclick="hideSeminare()">Hide</a>
           </div>
 
           <div class="parallax greyscale offers"><img src="{{ theme_url }}/img/communication.jpg"></div>
@@ -124,7 +123,21 @@
   $(document).ready(function(){
     $('.parallax').parallax();
   });
-  $(".button-collapse").sideNav();
+  //$(".button-collapse").sideNav();
+  function showCoaching(){
+    seminare.style.display='none';
+    coaching.style.display='block'
+  }
+  function hideCoaching(){
+    coaching.style.display='none'
+  }
+  function showSeminare(){
+    coaching.style.display='none';
+    seminare.style.display='block'
+  }
+  function hideSeminare(){
+    seminare.style.display='none'
+  }
   </script>
 </body>
 </html>
