@@ -7,23 +7,23 @@ html {
 }
 
 header {
-  height: 96px;
+  height: 106px;
   .navbar-fixed {
-    height: 96px;
+    height: 106px;
   }
 }
 nav {
   background-color: $background-color;
-  height: 96px;
+  height: 106px;
   ul {
-    height: 96px;
+    height: 106px;
     li {
-      height: 96px;
+      height: 106px;
       a {
-        line-height: 96px;
+        line-height: 106px;
         &.button-collapse {
-          height: 96px;
-          line-height: 96px;
+          height: 106px;
+          line-height: 106px;
         }
         &:hover {
           color: $accent-color;
@@ -32,13 +32,13 @@ nav {
     }
   }
   a {
-    line-height: 96px;
+    line-height: 106px;
     &.button-collapse {
-      height: 96px;
-      line-height: 96px;
+      height: 106px;
+      line-height: 106px;
       i {
-        height: 96px;
-        line-height: 96px;
+        height: 106px;
+        line-height: 106px;
         font-size: 300%;
       }
     }
@@ -47,20 +47,28 @@ nav {
     padding-top: 96px;
   }*/
   .side-nav li>a {
-    height: 96px;
-    line-height: 96px;
+    height: 106px;
+    line-height: 106px;
   }
 }
 .brand-logo {
-  height: 96px;
+  height: 106px;
 
   img {
     height: 96px;
+    vertical-align: middle;
     border: none;
   }
 }
 
 .single-content {
+
+  ul {
+    li {
+      list-style: initial;
+      list-style-position: inside;
+    }
+  }
 }
 
 a {
@@ -80,6 +88,7 @@ a {
   .title {
     margin-top: 50vh;
     font-weight: bold;
+    font-size: 50pt;
     color: white;
     text-shadow: 2px 2px 4px grey;
     @media screen and (max-height: 600px) {
@@ -97,6 +106,7 @@ a {
   }
   .tag-line {
     font-weight: lighter;
+    font-size: 35pt;
   }
   .heading {
     font-weight: bold;
@@ -159,6 +169,13 @@ a {
 #coaching {
   padding: 3vh;
   display: none;
+  ul {
+    padding-left: 6px;
+    li {
+      list-style: initial;
+      list-style-position: inside;
+    }
+  }
 }
 #seminare{
   @extend #coaching;
@@ -219,8 +236,8 @@ p.features {
 
 .page-footer {
   background-color: $background-color;
-  padding: 0;
   font-size: 8pt;
+  padding: 5px 0;
 
   h4 {
     margin: 0;
